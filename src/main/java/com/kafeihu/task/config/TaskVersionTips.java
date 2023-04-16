@@ -24,8 +24,6 @@ public class TaskVersionTips implements ImportAware {
                 + " Task v1.1.3 更新周知：\n"
                 + " 1.handle模式废弃\n"
                 + " 2.dependent废弃\n"
-                + " 版本说明与功能描述：\n"
-                + " https://iwiki.woa.com/pages/viewpage.action?pageId=4006927171\n"
                 + "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
         logger.info(logo);
     }

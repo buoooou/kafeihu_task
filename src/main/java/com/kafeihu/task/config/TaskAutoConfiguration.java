@@ -17,7 +17,7 @@ public class TaskAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    @ConditionalOnProperty(prefix = "fitboot.task.runner", name = "enabled", havingValue = "true",
+    @ConditionalOnProperty(prefix = "kafeihu.task.runner", name = "enabled", havingValue = "true",
             matchIfMissing = true)
     public TaskCommandLineRunner taskCommandLineRunner() {
         return new TaskCommandLineRunner();
