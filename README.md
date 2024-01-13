@@ -32,6 +32,3 @@
 架构图：
 
 ![](src/main/resources/img/架构图.png)
-
-详细功能介绍：
-https://iwiki.woa.com/pages/viewpage.action?pageId=4006927171
